@@ -3,7 +3,7 @@
 Welcome to the **Data Warehouse and Analytics Project** repository! 🚀  
 
 This project demonstrates an end-to-end **data warehousing and analytics solution** – from ingesting raw data to generating actionable business insights.  
-Designed as a **portfolio project**, it showcases industry best practices in **data engineering, data modeling, and analytics** using **SQL Server**.
+Designed as a **portfolio project**, it showcases industry best practices in **data engineering, data modeling, and analytics** using **Postgres SQL**.
 
 ---
 
@@ -40,7 +40,7 @@ The data architecture follows the **Medallion Architecture** pattern with **Bron
 
 - 🟤 **Bronze Layer (Raw Zone)**  
   - Stores **raw data as-is** from source systems.  
-  - Data is ingested from **CSV files** into the **SQL Server database**.
+  - Data is ingested from **CSV files** into the **Postgres SQL database**.
 
 - ⚪ **Silver Layer (Cleansed Zone)**  
   - Performs **data cleansing**, **standardization**, and **normalization**.  
@@ -57,7 +57,7 @@ The data architecture follows the **Medallion Architecture** pattern with **Bron
 ### Building the Data Warehouse (Data Engineering)
 
 **Objective**  
-Develop a **modern data warehouse** using **SQL Server** to consolidate sales data, enabling analytical reporting and data-driven decision-making.
+Develop a **modern data warehouse** using **Postgres SQL** to consolidate sales data, enabling analytical reporting and data-driven decision-making.
 
 **Specifications**
 
